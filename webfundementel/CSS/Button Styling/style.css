@@ -1,0 +1,22 @@
+*{
+    margin: 10px;
+}
+#searchbut{
+     color: rgb(74, 207, 163);
+    background-color:rgb(238, 240, 243);
+   border-radius: 50px;
+    border-color:rgb(74, 207, 163);
+    text-align: center;
+}
+button{
+    border-color: rgb(74, 207, 163);
+    border-radius: 70px;
+    color: aliceblue;
+    background-color:rgb(74, 207, 163);
+}
+#Create{
+    background-color: rgb(43, 120, 228);
+    color: aliceblue;
+    box-shadow:  1px 5px   #000000 ;
+
+}
