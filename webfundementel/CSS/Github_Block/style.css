@@ -1,0 +1,40 @@
+*{
+background-color: aliceblue;
+}
+.contains{
+    display: flex-block;
+    margin:70px;
+    
+
+}
+h1, p {
+    color:rgb(72,74,85) ;
+    text-align: center;
+}
+img{
+    width: 350px;
+    height: 250px;
+}
+.images1{
+    background-color: rgb(84, 192, 241);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+
+}
+.images2{
+    background-color: rgb(196, 159, 174);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin:30px 0px;
+    
+}
+.images3{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
