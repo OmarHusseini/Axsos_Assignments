@@ -3,7 +3,7 @@ header {
 }
 
 h1,
-ul{
+ul {
     color: aliceblue;
 }
 
@@ -36,26 +36,30 @@ ul,
 input {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-main{
+
+main {
     position: relative;
 }
-.ownpage{
-    border: 1px solid rgb(205, 205, 205) ;
-    width:400px ;
+
+.ownpage {
+    border: 1px solid rgb(205, 205, 205);
+    width: 400px;
     height: 320px;
     position: absolute;
     top: 32px;
     left: 52px;
 }
-.top{
-    background-color: rgb(23, 162, 184) ;
-    width:400px ;
+
+.top {
+    background-color: rgb(23, 162, 184);
+    width: 400px;
     height: 90px;
 }
-.Profilepicture{
+
+.Profilepicture {
     width: 90px;
     height: 90px;
-    border: 2px solid  rgb(205, 205, 205);
+    border: 2px solid rgb(205, 205, 205);
     position: absolute;
     top: 43px;
     left: 33px;
@@ -63,18 +67,48 @@ main{
 
 
 }
-.buttom{
+
+.buttom {
     position: absolute;
     top: 124px;
     left: 30px;
 }
-#jane-m{
+
+#jane-m {
     width: 89px;
     height: 89px;
     border: 0px solid none;
     border-radius: 50px;
 }
-.icon-profile{
+
+.icon-profile {
     width: 13px;
     height: 15px;
 }
+
+.education {
+    border: 1px solid rgb(205, 205, 205);
+    width: 400px;
+    height: 320px;
+    position: absolute;
+    top: 395px;
+    left: 52px;
+}
+.connection-request{
+    border: 1px solid rgb(205, 205, 205);
+    width: 200px ;
+    height:160px ;
+    position: absolute;
+    top: 32px;
+    left: 880px;
+}
+.your-connections{
+    border: 1px solid rgb(205, 205, 205);
+    width: 200px ;
+    height:340px ;
+    position: absolute;
+    top: 240px;
+    left: 880px;
+
+}
+
