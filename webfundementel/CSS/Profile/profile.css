@@ -1,9 +1,11 @@
-header {
+.headofpage {
     background-color: black;
 }
 
 h1,
-ul {
+ul,
+.top-color,
+.subject {
     color: aliceblue;
 }
 
@@ -25,7 +27,7 @@ li {
     padding-right: 20px;
 }
 
-input {
+#signoutinput {
     background-color: rgb(23, 162, 184);
     color: aliceblue;
     border: 0;
@@ -33,9 +35,14 @@ input {
 
 h1,
 ul,
-input {
+input,
+.top-color,
+.contecteducation,
+.subject {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+/* here is font family many of classe or html elements to be uniform */
 
 main {
     position: relative;
@@ -86,6 +93,9 @@ main {
     height: 15px;
 }
 
+/* above from this comment  i finish styling section who is name ownpage */
+/*in here i start to style of section education*/
+
 .education {
     border: 1px solid rgb(205, 205, 205);
     width: 400px;
@@ -94,21 +104,137 @@ main {
     top: 395px;
     left: 52px;
 }
-.connection-request{
+
+.educationtop {
+    background-color: rgb(51, 51, 51);
+    height: 50px;
+    width: 400px;
+    position: absolute;
+
+
+}
+
+.top-color {
+    padding-left: 15px;
+}
+
+.contecteducation {
+    position: absolute;
+    top: 46px;
+    left: 15px;
+    font-size: large;
+}
+
+span {
+    color: rgb(107, 106, 106);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/* start to style connection request section */
+.connection-request {
     border: 1px solid rgb(205, 205, 205);
-    width: 200px ;
-    height:160px ;
+    width: 200px;
+    height: 160px;
     position: absolute;
     top: 32px;
     left: 880px;
+
 }
-.your-connections{
+
+.requesttop {
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 30px;
+}
+
+.icons {
+    width: 20px;
+    height: 30px;
+    border: 0px solid none;
+    border-radius: 50%;
+}
+
+.peoplerequest0 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 62px;
+    left: 9px;
+
+}
+
+.todd,
+.connectimg {
+    width: 37px;
+    height: 34px;
+    border: 0px solid none;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.icon-request {
+    width: 26px;
+    height: 23px;
+    margin: 2px;
+}
+
+.connection-name {
+    margin: 0px 20px 0px 7px;
+}
+
+.containofrequest {
+    display: block;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 112px;
+    left: 9px;
+}
+
+.connection-name1 {
+    margin: 0px 31px 0px 7px;
+
+}
+
+.your-connections {
     border: 1px solid rgb(205, 205, 205);
-    width: 200px ;
-    height:340px ;
+    width: 200px;
+    height: 340px;
     position: absolute;
     top: 240px;
     left: 880px;
+    display: flex;
+
 
 }
 
+.topofconnect {
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    width: 202px;
+
+    position: absolute;
+    top: 240px;
+    left: 880px;
+    align-items: center;
+}
+
+.iconsconnect {
+    width: 40px;
+    height: 28px;
+    border: 0px solid none;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.myconnect {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    margin: ;
+}

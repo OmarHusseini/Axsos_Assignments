@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="profile.css" />
   </head>
   <body>
-    <header>
+    <header class="headofpage">
       <nav>
         <h1>Profile</h1>
         <ul>
@@ -15,7 +15,7 @@
           <li>My Profile</li>
           <li>Find Connections</li>
         </ul>
-        <input type="submit" value="Sign Out" />
+        <input type="submit" value="Sign Out" id="signoutinput" />
       </nav>
     </header>
     <main>
@@ -45,19 +45,77 @@
         </section>
       </section>
       <section class="education">
-        <section class="educationtop">Education</section>
+        <section class="educationtop">
+          <p class="top-color">Education</p>
+        </section>
         <section class="contecteducation">
-          <p>
-            Coding Dojo-Full Stack BootCamp <br />
-            <span>Dec 2019- Mar 2020</span><br />Triple block belt in
-            Python,Mern,and C#...
-          </p>
+          <p class="decripeedu">Coding Dojo-Full Stack BootCamp</p>
+          <span class="date">Dec 2019- Mar 2020</span>
+          <p>Triple block belt in Python,Mern,and C#..</p>
         </section>
       </section>
       <section class="connection-request">
-        <section class="requesttop">Connection Requests</section>
+        <section class="requesttop">
+          <img src="icons/2.png" alt="notificatio-of-requests" class="icons" />
+          <p class="top-color">Connection Request</p>
+        </section>
+        <section class="containofrequest">
+          <section class="peoplerequest0">
+            <img src="img/todd-s.jpg" alt="todd-spicture" class="todd" />
+            <p class="connection-name">Todd E</p>
+            <img
+              src="icons/accept-circle.png"
+              alt="accept-circlebutton"
+              class="icon-request"
+            />
+            <img
+              src="icons/close-circle.png"
+              alt="declinecirclebutton"
+              class="icon-request"
+            />
+          </section>
+          <article>
+            <img src="img/phil-s.jpg" alt="phil-spicture" class="connectimg" />
+            <p class="connection-name1">phil s</p>
+            <img
+              src="icons/accept-circle.png"
+              alt="accept-circlebutton"
+              class="icon-request"
+            />
+            <img
+              src="icons/close-circle.png"
+              alt="declinecirclebutton"
+              class="icon-request"
+            />
+          </article>
+        </section>
       </section>
-      <section class="your-connections"></section>
+      <header class="topofconnect">
+        <img src="icons/500.jpg" alt="500icon" class="connectimg" />
+        <p class="subject">Your Connections</p>
+      </header>
+      <section class="your-connections">
+        <article class="myconnect">
+          <img
+            src="img/adrien-s.jpg"
+            alt="adrien'spicture"
+            class="connectimg"
+          />
+          <p>Adrien</p>
+        </article>
+        <article class="myconnect1">
+          <img src="img/anne-s.jpg" alt="anne's picture" class="connectimg" />
+          <p>Anne J</p>
+        </article>
+        <article class="myconnect2">
+          <img src="img/anne-s.jpg" alt="anne's picture" class="connectimg" />
+          <p>Anne J</p>
+        </article>
+        <article class="myconnect3">
+          <img src="img/anne-s.jpg" alt="anne's picture" class="connectimg" />
+          <p>Anne J</p>
+        </article>
+      </section>
     </main>
   </body>
 </html>
