@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="dojonary.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Dojonary</h1>
+      <input
+        type="search"
+        name="searchabout"
+        id="searchaboutdojo"
+        placeholder="Searh"
+      />
+      <input type="button" value="Login" class="Loginbutton" onclick="togolog(this)" />
+    </header>
+    <main>
+      <div class="rightside">
+        <section class="card">
+          <section class="rightninga">
+            <h2>ninja</h2>
+            <p class="description">noun</p>
+            <p>Plural: <span>ninjas</span></p>
+            <button class="numlikes" onclick="alertme(this)">13 likes</button>
+          </section>
+          <section class="leftcard">
+            A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+          </section>
+        </section>
+
+        <article>
+          <section class="rightninga">
+            <h2>ninja</h2>
+            <p class="description">noun</p>
+            <p>Plural: <span>ninjas</span></p>
+            <button class="numlikes" onclick="alertme(this)">37 likes</button>
+          </section>
+          <section class="leftcard">
+           <p>A <a href="#">programmer </a> who breaks down proplems with <a href="#">zen</a>-like focus</p> 
+          </section>
+        </article>
+      </div>
+      <div class="leftside">
+        <aside>
+          <p>Dojonary is  <br>defined by YOU</p>
+          <button onclick="removebutton(this)">Add Defintion</button>
+        </aside>
+      </div>
+    </main>
+    <script src="./dojonary.js"></script>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+* {
+    margin: 0 auto;
+    width: 970 px;
+    
+}
+
+body {
+    margin: 0 auto;
+    width: 970 px;
+
+}
+
+header {
+    display: flex;
+    background-color: rgb(204, 204, 204);
+    width: 970px;
+    height: 70px;
+    align-items: center;
+}
+
+header h1 {
+    background-color: rgb(204, 204, 204);
+}
+
+#searchaboutdojo {
+    width: 300px;
+    height: 30px;
+    border: 3px solid black;
+
+}
+
+.Loginbutton {
+    color: aliceblue;
+    background-color: rgb(4, 4, 238);
+    padding: 0px 18px 0px;
+    box-shadow: 5px 3px black;
+    height: 30px;
+}
+
+main {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    width: 970px;
+}
+
+.rightside {
+    margin: 0px auto;
+    display: block;
+}
+
+.leftside {
+    margin: 0px 0px 0px 417px;
+}
+
+.card {
+    width: 400px;
+    height: 190px;
+    border: 2px solid black;
+    display: flex;
+}
+
+article {
+    width: 400px;
+    height: 190px;
+    border: 2px solid black;
+    margin-top: 20px;
+    display: flex;
+}
+
+aside {
+    height: 135px;
+    width: 145px;
+    border: 2px solid black;
+
+}
+
+.rightninga {
+    margin: 20px;
+    width: 100px;
+    text-align: center;
+
+}
+
+.description {
+    margin: 7px;
+}
+
+.numlikes {
+    margin-top: 40px;
+    width: 80px;
+    background-color: #f5db63;
+    padding: 7px;
+    box-shadow: 3px 3px black;
+
+}
+
+span {
+    font-style: italic;
+}
+
+.leftcard {
+    width: 200px;
+    text-align: left;
+    margin: 75px 0px 0px 0px;
+
+}
+
+aside p {
+    padding: 20px 0px 0px 10px;
+}
+
+aside button {
+    background-color: #9cc080;
+    padding: 8px;
+    margin: 20px;
+
+}
