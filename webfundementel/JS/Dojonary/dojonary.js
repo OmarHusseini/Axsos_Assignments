@@ -6,14 +6,12 @@ function removebutton(button) {
     button.remove();
 }
 
-function togolog() {
-    if (button.innertext === "Loginbutton") {
-        button.classname = "logout-button";
-        button.innertext = "Logout";
+function togolog(el) {
+    if (el.value === "Login") {
+        el.value = "Logout";
     }
     else {
-        button.classname = "Loginbutton";
-        button.innertext = "login";
+        el.value = "Login"
     }
 
 
