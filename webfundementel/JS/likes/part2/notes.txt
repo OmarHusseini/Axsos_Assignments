@@ -1,0 +1,12 @@
+function addlike() {
+    var like = document.querySelectorAll("#numlike")
+    console.log(like);
+    for (var i = 0; i < like.length ; i++) {
+        like[i].innerText++;
+
+    }
+
+
+}
+ i wanna try to increase number by queryselectorall method 
+h will back to try but now i have fininsh the assignment

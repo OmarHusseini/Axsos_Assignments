@@ -4,10 +4,17 @@ header {
     color: aliceblue;
     align-items: center;
     justify-content: space-around;
-
     margin: 0 auto;
 
 
+}
+.header{
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-between;
+width: 995px;
+    margin: 0 auto;
 }
 
 main {
@@ -22,10 +29,14 @@ ul {
 
 }
 
+
 ul li {
     margin: 20px;
 }
-
+.city{
+    color: aliceblue;
+    text-decoration: none;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -67,7 +78,7 @@ img {
     justify-content: space-evenly;
 }
 
-.Fahrenheit {
+.celsiusright {
     color: red;
     font-weight: bold;
 }
@@ -92,6 +103,7 @@ img {
     margin: 10px;
     background-color: #9fc5f8;
     box-shadow: 3px 3px black;
+    
 }
 
 .cokieimg {

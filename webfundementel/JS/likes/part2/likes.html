@@ -7,10 +7,54 @@
     <link rel="stylesheet" href="like.css" />
   </head>
   <body>
-    <header>
-      <h1>Network</h1>
-    </header>
+    <div class="header">
+      <header class="headofpage">
+        <h1>Network</h1>
+      </header>
+    </div>
+
     <h2>Your Feed</h2>
+    <main>
+      <div class="leftside">
+        <section class="profile">
+          <article><img src="user-circle.png" alt="profilepicture" /></article>
+          <a href="#">Add an avatar</a>
+          <h3>James Doe</h3>
+        </section>
+      </div>
+      <div class="rightside">
+        <section class="someuser">
+          <header class="toplike">
+            <h2>Some User</h2>
+            <p><span id="numlike1">3</span> like(s)</p>
+            <input type="button" onclick="addlike1()" value="Like" />
+          </header>
+          <footer>
+            <p>This is some filler , it can say anything we like</p>
+          </footer>
+        </section>
+        <section class="someuser">
+          <header class="toplike">
+            <h2>Some User</h2>
+            <p><span id="numlike2">3</span> like(s)</p>
+            <input type="button" onclick="addlike2()" value="Like" />
+          </header>
+          <footer>
+            <p>This is some filler , it can say anything we like</p>
+          </footer>
+        </section>
+        <section class="someuser">
+          <header class="toplike">
+            <h2>Some User</h2>
+            <p><span id="numlike3">3</span> like(s)</p>
+            <input type="button" onclick="addlike3()" value="Like" />
+          </header>
+          <footer>
+            <p>This is some filler , it can say anything we like</p>
+          </footer>
+        </section>
+      </div>
+    </main>
 
     <script src="like.js"></script>
   </body>

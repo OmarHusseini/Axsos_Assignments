@@ -1,16 +1,74 @@
-body {
-    margin: 0 auto;
-    width: 970px;
+.header{
+    background-color: black;
+   
 }
 
-header {
+.headofpage {
     background-color: black;
     color: aliceblue;
     height: 70px;
     display: flex;
     align-items: center;
+    width: 970px;
+    margin: 0 auto;
 }
 
 h2 {
     text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    width: 970px;
+    margin: 0 auto;
+}
+
+.profile {
+    width: 260px;
+    height: 385px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+article img {
+    width: 150px;
+    margin: 50px 0px;
+}
+
+.someuser {
+    width: 400px;
+    min-width: 200px;
+    height: 140px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+
+
+
+}
+
+.toplike {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header input {
+    padding: 7px 12px;
+    background-color: #ffd966;
+    box-shadow: 3px 3px black;
+}
+
+header p {
+    padding-left: 20px;
+    margin-left: 40px;
+}
+
+span {
+    margin: 5px;
+}
+
+footer {
+    margin-left: 20px;
+
 }
