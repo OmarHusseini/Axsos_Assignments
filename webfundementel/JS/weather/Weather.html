@@ -8,14 +8,16 @@
   </head>
   <body>
     <header>
-        <div class="header"><h1>DojoWeather</h1>
+      <div class="header">
+        <h1>DojoWeather</h1>
         <ul>
-          <li class="country"><a href="#" onclick="alertme(this)" class="city">Burbank</a></li>
+          <li class="country">
+            <a href="#" onclick="alertme(this)" class="city">Burbank</a>
+          </li>
           <li class="country" onclick="alertme(this)">Chicago</li>
           <li class="country" onclick="alertme(this)">Dallas</li>
         </ul>
       </div>
-      
     </header>
 
     <main>
@@ -23,9 +25,13 @@
         <h2>San Jose</h2>
         <div class="typeoftemperature">
           <label> show temperature in</label>
-          <select name="typetemp" id="">
-            <option value="" onclick="convertcelsius()">&deg;C</option>
-            <option value="" onclick="convertfahrenhiet()" >&deg;F</option>
+          <select
+            name="type_temp"
+            id="type_temp"
+            onchange="convert_tempreture()"
+          >
+            <option value="c">C</option>
+            <option value="f">F</option>
           </select>
         </div>
       </nav>
@@ -34,37 +40,37 @@
           <h4>Today</h4>
           <img src="img/some_rain.png" alt="rainyday" />
           <p>some rain</p>
-          <div class="alltemperature">
-            <p class="celsiusright">24&deg;</p>
-            <p class="celsius">18&deg;</p>
+          <div class="temp">
+            <p class="temp_right">24</p>
+            <p class="temp_left">18</p>
           </div>
         </article>
         <article>
           <h4>Today</h4>
           <img src="img/some_rain.png" alt="rainyday" />
           <p>some rain</p>
-          <div class="alltemperature">
-            <p class="celsiusright">24&deg;</p>
-            <p class="celsius">18&deg;</p>
+          <div class="temp">
+            <p class="temp_right">24</p>
+            <p class="temp_left">18</p>
           </div>
         </article>
         <article>
-          <h4 onclick="findall()">Today</h4>
+          <h4>Today</h4>
           <!-- finction findall is just examplge -->
           <img src="img/some_rain.png" alt="rainyday" />
           <p>some rain</p>
-          <div class="alltemperature">
-            <p class="celsiusright">24&deg;</p>
-            <p class="celsius">18&deg;</p>
+          <div class="temp">
+            <p class="temp_right">24</p>
+            <p class="temp_left">18</p>
           </div>
         </article>
         <article>
           <h4>Today</h4>
           <img src="img/some_rain.png" alt="rainyday" />
           <p>some rain</p>
-          <div class="alltemperature">
-            <p class="celsiusright">24&deg;</p>
-            <p class="celsius">18&deg;</p>
+          <div class="temp">
+            <p class="temp_right">24</p>
+            <p class="temp_left">18</p>
           </div>
         </article>
       </section>
@@ -78,7 +84,12 @@
             <a href="#">Read more...</a>
           </p>
         </div>
-        <input type="button" value="I Accept" class="accept" onclick="removewindow()" />
+        <input
+          type="button"
+          value="I Accept"
+          class="accept"
+          onclick="removewindow()"
+        />
       </section>
     </main>
     <script src="weather.js"></script>

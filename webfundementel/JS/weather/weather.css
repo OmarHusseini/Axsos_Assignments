@@ -73,17 +73,17 @@ img {
     width: 180px;
 }
 
-.alltemperature {
+.temp {
     display: flex;
     justify-content: space-evenly;
 }
 
-.celsiusright {
+.temp_right {
     color: red;
     font-weight: bold;
 }
 
-.celsius {
+.temp_left {
     color: blue;
     font-weight: bold;
 }
