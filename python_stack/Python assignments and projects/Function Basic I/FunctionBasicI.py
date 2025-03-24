@@ -64,15 +64,15 @@
 #     return 10
 # print(a(3,5))
 
-# #11
-# b = 500
-# print(b)
-# def a():
-#     b = 300
-#     print(b)
-# print(b)
-# a()
-# print(b)
+#11
+b = 500
+print(b)
+def a():
+    b = 300
+    print(b)
+print(b)
+a()
+print(b)
 
 # #12
 # b = 500
@@ -106,13 +106,13 @@
 # a()
 
 #15
-def a():
-    print(1)
-    x = b()
-    print(x)
-    return 10
-def b():
-    print(3)
-    return 5
-y = a()
-print(y)
+# def a():
+#     print(1)
+#     x = b()
+#     print(x)
+#     return 10
+# def b():
+#     print(3)
+#     return 5
+# y = a()
+# print(y)
