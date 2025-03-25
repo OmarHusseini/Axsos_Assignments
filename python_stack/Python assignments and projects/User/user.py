@@ -2,6 +2,13 @@ class User:
     def __init__(self, name, balance):
         self.name = name
         self.balance = balance
+        
+    def make_deposit(self,amount):
+         self.balance += amount
+         print(f"Deposit of ${amount} successful. New balance: ${self.balance}")
+         return self
+         
+        
  
     def make_withdrawal(self, amount):
         if amount > 0 and self.balance >= amount:
@@ -12,6 +19,7 @@ class User:
  
     def display_user_balance(self):
         print(f"User: {self.name}, Balance: ${self.balance}")
+        
  
     def transfer_money(self, other_user, amount):
         if amount > 0 and self.balance >= amount:
@@ -26,7 +34,8 @@ mahmoud = User("Mahmoud", 150)
 omar = User("Omar", 100)
  
  
- 
+omar.make_deposit(50).make_deposit(50).make_deposit(50).make_deposit(50).make_deposit(50).make_deposit(50).make_withdrawal(70)
+
 mahmoud.make_withdrawal(50)
 mahmoud.display_user_balance()
 mahmoud.transfer_money(omar, 50)
