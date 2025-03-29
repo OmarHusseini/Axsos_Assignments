@@ -32,18 +32,21 @@
 
 # #foreach
 # for i in range(0, len(students), 1):
-#     print( students[i]['first_name']+ " - " + students[i]["last_name"] )
+#     print( "First-name"+": " + students[i]['first_name']+ "  " + "Last-name" +": " +students[i]["last_name"] )
 
 
-dojo = {
-   'locations': ['San Jose', 'Seattle', 'Dallas', 'Chicago', 'Tulsa', 'DC', 'Burbank'],
-   'instructors': ['Michael', 'Amy', 'Eduardo', 'Josh', 'Graham', 'Patrick', 'Minh', 'Devon']
-}
+# dojo = {
+#    'locations': ['San Jose', 'Seattle', 'Dallas', 'Chicago', 'Tulsa', 'DC', 'Burbank'],
+#    'instructors': ['Michael', 'Amy', 'Eduardo', 'Josh', 'Graham', 'Patrick', 'Minh', 'Devon']
+# }
 
-def printInfo():
+# def printInfo():
+#  for key, values in dojo.items():
+#         print(f"{len(values)} {key.upper()}")
+#         for value in values:
+#             print(value)
+#         print()  
     
-        # print(dojo["locations"]) 
-        # print(dojo['instructors']) 
         
-printInfo() 
+# printInfo() 
 
