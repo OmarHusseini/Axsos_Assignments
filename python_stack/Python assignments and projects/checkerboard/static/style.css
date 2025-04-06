@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0px;
+}
+
+.checker {
+    display: flex;
+    flex-direction: column;
+}
+
+.board{
+    display: flex;
+}
+
+.cell{
+    height: 40px;
+    width: 40px;
+}
