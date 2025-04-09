@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+  </head>
+  <body>
+    <h1>Welcome!</h1>
+    <p>You have visited this site <strong>{{ count }}</strong> times.</p>
+    <form action="addtwo" method="POST">
+      {% csrf_token %}
+      <button type="submit">Add two</button>
+
+    </form>
+    <!-- <a href="addtwovalue">Add</a> -->
+
+    <!-- Buttons -->
+    <form action="destroy_session" method="POST">
+      {% csrf_token %}
+      <button type="submit">Reset Counter</button>
+
+    </form>
+  </body>
+</html>
