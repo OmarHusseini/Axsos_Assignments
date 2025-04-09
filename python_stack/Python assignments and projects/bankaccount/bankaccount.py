@@ -22,17 +22,17 @@ class BankAccount:
     def display_account_info(self):
         print(f"Balance: ${self.balance}")
         
-    # def yield_interest(self,amount,interest):
-    #     if amount > 0 and self.balance >= amount:
-    #      interest = amount * self.int_rate  
-    #     #  self.balance += interest  
-    #     print(f"Yield: {interest}")
+    def yield_interest(self,amount,interest):
+        if amount > 0 and self.balance >= amount:
+         interest = amount * self.int_rate  
+         self.balance += interest  
+        print(f"Yield: {interest}")
         
 omar= BankAccount("omar")
 majd= BankAccount("Majd")
 
-# omar.deposit(50)
-# omar.withdraw(20)
+omar.deposit(50)
+omar.withdraw(20)
 # majd.deposit(1000000)
 # majd.withdraw(150000)
-# omar.yield_interest(100)
+omar.yield_interest(100,30)
