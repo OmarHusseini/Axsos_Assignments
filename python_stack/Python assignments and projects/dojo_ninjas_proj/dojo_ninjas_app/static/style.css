@@ -1,0 +1,9 @@
+.main{
+    display: flex;
+    margin: 10px;
+    
+    /* border: 1px solid black; */
+}
+.contain{
+    margin: 10px;
+}
