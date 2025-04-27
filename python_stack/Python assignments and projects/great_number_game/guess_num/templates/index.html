@@ -16,7 +16,7 @@
       {% if request.session.box == "Too High" or request.session.box == "Too Low" %}
       <div class="box red">{{request.session.box}}</div>
       {% endif %}
-      {% if 'correct' in request.session.box %}+
+      {% if 'correct' in request.session.box %}   
 
       <div class="box green">{{request.session.box}}</div>
 
@@ -30,7 +30,6 @@
 
       <form action="guess" method="POST">
         {% csrf_token %}
-=
         <input type="number" name="ran_num" min="1" max="100" /><br />
         <button>Sumbit</button>
       </form>

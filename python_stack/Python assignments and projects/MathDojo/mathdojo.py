@@ -6,8 +6,8 @@ class MathDojo:
         self.result += num
         return self 
 
-    def subtract(self, num, *nums):b 
-        self.result = num 
+    def subtract(self, num, *nums):
+        self.result -= num 
         return self 
 
 md = MathDojo()
