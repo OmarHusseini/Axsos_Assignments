@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create</title>
+</head>
+<body>
+<a href="/">Go Back</a>
+<h1>Add A New Show</h1>
+<form action="/add_new" method="POST">
+    {% csrf_token %}
+    <label >Title</label>
+    <input type="text" name="title">
+    <label >Network</label>
+    <input type="text" name="network" >
+    <label >Release Date</label>
+    <input type="date" name="date">
+    <label >Description</label>
+    <textarea name="des" ></textarea>
+    <input type="submit" value="Create">
+</form> 
+{% if messages %}
+<ul class="messages">    
+    {% for message in messages %}    
+        <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>    
+    {% endfor %}
+    </ul>
+{% endif %}  
+</body>
+</html>
