@@ -1,0 +1,3 @@
+INDEX VERSION 1.134
+file:/C:/Users/Msys/Desktop/Axsos_Assignments/java-stack/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index
+meta_index

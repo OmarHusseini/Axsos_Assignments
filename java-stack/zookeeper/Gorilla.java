@@ -1,5 +1,8 @@
 public class Gorilla extends Mamman{
+    
+//  public Gorilla(){
 
+//  }
 
 public void throwSomething(){
     System.out.println("Ghorilla has thrown an object");
