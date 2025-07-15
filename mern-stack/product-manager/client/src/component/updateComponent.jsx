@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import { useParams } from "react-router-dom";
 
-    const Update = (props) => {
+    const Update = () => {
     const { id } = useParams();
     // const [title, setTitle] = useState('');
     // const [price, setPrice] = useState('');
