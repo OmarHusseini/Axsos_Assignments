@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Homecomp />} />
+        <Route path="/" element={<Homecomp/>} />
         <Route path="/create" element={<CreateCom />} />
         <Route path="/edit/:id" element={<EditCom />} />
       </Routes>

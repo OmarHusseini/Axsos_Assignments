@@ -12,7 +12,7 @@ const Homecomp = () => {
 
     useEffect(() => {
         axios.get('http://localhost:8000/api/')
-            .then(res => { setAuthors(res.data), console.log(res) })
+            .then(res => { setAuthors(res.data), console.log(res.data) })
             .catch(err => {
                 const errorResponse = err.response.data.errors; // Get the errors from err.response.data
                 const errorArr = []; // Define a temp error array to push the messages in

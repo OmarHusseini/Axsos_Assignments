@@ -7,7 +7,7 @@ module.exports.getAllAuthour = (request, response) => {
 }
 
 module.exports.getAuthour = (request, response) => {
-    Authour.findOne({_id:request.params.id})
+    Authour.findOne({ _id: request.params.id })
         .then(authour => response.json(authour))
         .catch(err => response.status(400).json(err))
 }
@@ -22,7 +22,7 @@ module.exports.createAuthour = (request, response) => {
 }
 
 module.exports.updateAuthour = (request, response) => {
-    Authour.findOneAndUpdate({_id: request.params.id}, request.body, {new:true})
+    Authour.findOneAndUpdate({ _id: request.params.id }, request.body, { new: true })
         .then(updatedAuthour => response.json(updatedAuthour))
         .catch(err => response.status(400).json(err))
 }
@@ -30,5 +30,5 @@ module.exports.updateAuthour = (request, response) => {
 module.exports.deleteAuthour = (request, response) => {
     Authour.deleteOne({ _id: request.params.id })
         .then(deleteConfirmation => response.json(deleteConfirmation))
-        .catch(err =>  response.status(400).json(err))
+        .catch(err => response.status(400).json(err))
 }
